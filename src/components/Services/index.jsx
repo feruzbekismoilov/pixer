@@ -42,7 +42,9 @@ const Services = () => {
             </svg>
           </div>
         </div>
-        <button className="btn btn-success ">Learn more</button>
+        <button className="learn-btn " type="button">
+          Learn more
+        </button>
       </Container>
     </section>
   );
