@@ -1,0 +1,18 @@
+.header-menu {
+  display: none;
+  width: 35px;
+  height: 35px;
+}
+@media screen and (max-width: 700px) {
+  .header-menu {
+    display: block;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .header-menu {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+  }
+}
