@@ -1,23 +1,23 @@
 import { Container } from "../Header/Header";
-import "./Services.css";
+import "./Hero.css";
 
-const Services = () => {
+const Hero = () => {
   return (
-    <section className="services">
+    <section className="hero">
       <h1 className="visually-hidden">Pixer</h1>
       <Container>
-        <div className="services__wrapper">
-          <div className="services__start">
-            <h2 className="services-title">
+        <div className="hero__wrapper">
+          <div className="hero__start">
+            <h2 className="hero-title">
               Take your <br /> business to the next level take out
             </h2>
-            <p className="services-desc">
+            <p className="hero-desc">
               Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu.
               Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in.
               Vivamus mattis eros at sem pulvinar
             </p>
           </div>
-          <div className="services__end">
+          <div className="hero__end">
             <iframe
               width="592"
               height="334"
@@ -50,4 +50,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Hero;

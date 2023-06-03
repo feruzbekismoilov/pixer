@@ -1,15 +1,15 @@
-.services {
+.hero {
   padding: 91px 0 156px 0;
 }
-.services__wrapper {
+.hero__wrapper {
   display: flex;
   justify-content: space-between;
   margin-bottom: 40px;
 }
-.services__start {
+.hero__start {
   width: 537px;
 }
-.services-title {
+.hero-title {
   margin: 0;
   margin-bottom: 20px;
   font-weight: 700;
@@ -17,14 +17,14 @@
   line-height: 140%;
   color: #101010;
 }
-.services-desc {
+.hero-desc {
   margin: 0;
   width: 527px;
   font-size: 18px;
   line-height: 150%;
   color: #636f87;
 }
-.services__end {
+.hero__end {
   position: relative;
 }
 .play {

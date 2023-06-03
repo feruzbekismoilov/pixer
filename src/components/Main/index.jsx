@@ -1,9 +1,9 @@
-import Services from "../Services";
+import Hero from "../Hero";
 
 const Main = () => {
   return (
     <main>
-      <Services />
+      <Hero />
     </main>
   );
 };
