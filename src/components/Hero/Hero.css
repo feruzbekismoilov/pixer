@@ -51,6 +51,7 @@
   color: #ffffff;
 }
 .learn-btn:active {
+  padding: 19px 40px;
   border: 1px solid #1aab7b;
   background-color: #fff;
   color: #1aab7b;
@@ -111,5 +112,8 @@
   }
   .learn-btn {
     padding: 10px 20px;
+  }
+  .learn-btn:active {
+    padding: 9px 20px;
   }
 }
