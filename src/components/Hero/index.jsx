@@ -1,4 +1,5 @@
 import { Container } from "../Header/Header";
+import hero_image from "../../assets/images/hero_image.jpg";
 import "./Hero.css";
 
 const Hero = () => {
@@ -18,14 +19,7 @@ const Hero = () => {
             </p>
           </div>
           <div className="hero__end">
-            <iframe
-              width="592"
-              height="334"
-              src="https://www.youtube.com/embed/FSCSdAlLsYM?list=PLC3y8-rFHvwgu-G08-7ovbN9EyhF_cltM"
-              title="React Styled Components - 1 - Introduction"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
+            <img src={hero_image} alt="" />
             <svg
               className="play"
               width="100"
