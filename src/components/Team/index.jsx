@@ -18,7 +18,7 @@ const Team = () => {
     AOS.refresh();
   });
   return (
-    <section className="team">
+    <section className="team" id="team">
       <Container>
         <div className="text-center">
           <h2 className="team-title">How do we work?</h2>

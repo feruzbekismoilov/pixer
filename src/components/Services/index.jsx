@@ -9,7 +9,7 @@ import designToolIcon from "../../assets/icons/designtools.svg";
 import "./Services.css";
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       <Container>
         <h2 className="services__about">How can we help you?</h2>
         <ul className="services-list">

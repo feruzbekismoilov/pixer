@@ -70,19 +70,19 @@ const Header = () => {
             <HeaderNav className="site-nav">
               <NavList>
                 <li>
-                  <HeaderNavLink>Services</HeaderNavLink>
+                  <HeaderNavLink href="#services">Services</HeaderNavLink>
                 </li>
                 <li>
                   <HeaderNavLink>Portfolio</HeaderNavLink>
                 </li>
                 <li>
-                  <HeaderNavLink>Team</HeaderNavLink>
+                  <HeaderNavLink href="#team">Team</HeaderNavLink>
                 </li>
                 <li>
-                  <HeaderNavLink>Blog</HeaderNavLink>
+                  <HeaderNavLink href="#blog">Blog</HeaderNavLink>
                 </li>
                 <li>
-                  <HeaderNavLink>Contacts</HeaderNavLink>
+                  <HeaderNavLink href="#contact">Contacts</HeaderNavLink>
                 </li>
               </NavList>
             </HeaderNav>
