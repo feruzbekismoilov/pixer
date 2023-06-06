@@ -7,6 +7,10 @@
   justify-content: space-between;
   margin-bottom: 100px;
 }
+.footer__wrapper-start {
+  display: flex;
+  gap: 151px;
+}
 .footer-list {
   display: flex;
   flex-direction: column;
@@ -44,4 +48,27 @@
   height: 1px;
   margin-bottom: 50px;
   background: #3b4155;
+}
+.footer-logo:hover {
+  opacity: 0.8;
+}
+.copyrigth {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.copyrigth:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 850px) {
+  .footer__wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer__wrapper-start {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+  }
 }
